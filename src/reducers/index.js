@@ -1,8 +1,8 @@
-import { combineReducers } from '@reduxjs/toolkit'
-import selectedCity from './selectedCityReducer'
+import { combineReducers } from "@reduxjs/toolkit";
+import selectedCity from "./selectedCityReducer";
 
 const rootReducer = combineReducers({
-    selectedCity
-})
+  selectedCity,
+});
 
-export default rootReducer
+export default rootReducer;
